@@ -13,6 +13,7 @@
         "charliermarsh.ruff"
       ],
       "settings": {
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
         "editor.formatOnSave": true,
         "editor.rulers": [100],
         "[python]": {
@@ -26,5 +27,6 @@
       }
     }
   },
+  "postCreateCommand": "rm -rf .venv && python -m venv .venv && .venv/bin/pip install -r requirements.txt",
   "remoteUser": "vscode"
 }
