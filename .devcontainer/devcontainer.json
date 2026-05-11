@@ -13,8 +13,6 @@
         "charliermarsh.ruff"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "python.terminal.activateEnvironment": false,
         "editor.formatOnSave": true,
         "editor.rulers": [100],
         "[python]": {
