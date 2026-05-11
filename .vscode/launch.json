@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run PDF Diff Tool",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pdf_diff.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
